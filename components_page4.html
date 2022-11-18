@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+
+    <!--Подключени фавиконки-->
+    <link type="image/png" sizes="16x16" rel="icon" href="images/site_favicon.png">
+    
+    <!--Подключение файла со стилями-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Подключение шрифтов-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=
+                Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script defer src="jquery-3.6.1.js"></script>
+    <script defer src="scripts.js"></script>
+    <!--Заголовок-->
+    <title>Больше о компонентах</title>
+</head>
+<body>
+    <a href="#" class="scroll_top" title="Наверх"></a>
+
+    <!--Шапка сайта, основная навигация-->
+    <header>
+        <img class="site_logo" src="images/site_logo.svg">
+        <h2 class="site_name">CompComplect</h2>
+
+        <!--Иконка меню гамбургера-->
+        <div class="hamb">
+            <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        
+        <nav id="menu" class="nav_menu">
+                <a class="btn1 btn-one" href = "site.html">
+                    <p class="nav_href">На главную</p>
+                </a>
+
+                <a class="btn1 btn-one" href = "complects_page2.html">
+                    <p class="nav_href">Готовые комплектации</p>
+                </a>
+    
+                <a class="btn1 btn-one" href = "soviets_page3.html">
+                    <p class="nav_href">Советы</p>
+                </a>
+      
+                <a class="btn1 btn-one" href = "info_page5.html">
+                    <p class="nav_href">Информация</p>
+                </a>
+    
+                <div class="login_field">
+                    <a class="login" href = "login_page1.html" target="_blank">Вход</a>
+                </div>    
+        </nav> 
+
+        <!--Фон меню гамбургера-->
+        <div class="popup" id="popup"></div> 
+
+    </header>
+
+    <main>
+        <div class="slide_1 components_hello">
+            <p class="main_text_hello">Каждый элемент компьютера играют важную роль и имеет свои особенности. Здесь собрана информация о каждом компоненте ПК. Описано их назначение и особенности.
+                Со знаниями о всех комплектующих будет легче их выбирать.
+            </p>
+            <a class="scrollto" href="#slide1"></a>
+        </div>
+
+        <div id="slide1" class="about_cont">
+            <div class="about_component">
+                <img src="images/cpu (1).png" alt="">
+                <p data-wow-duration="2s" class="wow animate__bounceInRight">Центральный процессор (ЦП, CPU) — это «сердце» компьютера. Это основной элемент системы. 
+                    Конструктивно процессор представляет собой печатную плату, на которой размещен полупроводниковый кристалл, накрытый металлической теплораспределительной крышкой. На обратной стороне печатной платы предусмотрены контактные площадки, с помощью которых он соединяется с материнской платой.
+                    У процессора есть ряд важных характеристик, которые нужно учесть: количество ядер и тактовая частота, архитектура и тепловыделение. 
+                </p>
+            </div>
+        </div>
+        
+        <div class="about_cont">
+            <div class="about_component">
+                <p data-wow-duration="2s" class="wow animate__bounceInLeft">Видеокарта (видеоадаптер) — это часть аппаратного обеспечения компьютера и ноутбука, устройство, которое отвечает за обработку данных — машинного кода, переводя его в доступное изображение. Т.е. простыми словами, видеоадаптер занимается переводом программного кода в понятное для пользователя изображение на его мониторе, телевизоре или любом другом дисплее.</p>
+                <img src="images/video-card (1).png" alt="">
+            </div>
+        </div>
+
+        <div class="about_cont">
+            <div class="about_component">
+                <img src="images/motherboard (5).png" alt="">
+                <p data-wow-duration="2s" class="wow animate__bounceInRight">Материнская плата (системная плата, материнка) — это основная системная плата, на которой строится модульное устройство: компьютер, ноутбук, смартфон, планшет и т.д. Т.е. это плата, на которую устанавливаются различные компоненты-модули: процессор, оперативная память, видеочип и другие. Она обеспечивает их взаимодействие и работу. На английском пишется, как — motherboard, mainboard.</p></div>
+        </div>
+
+        <div id="slide1" class="about_cont">
+            <div class="about_component">
+                <p data-wow-duration="2s" class="wow animate__bounceInLeft">Оперативная память, или оперативное запоминающее устройство (ОЗУ) — 
+                    временное хранилище для данных, необходимых для работы программ. Оперативка обеспечивает процессору и видеокарте 
+                    моментальный доступ к запрашиваемой информации, чтобы не пришлось считывать её с медленного жёсткого диска или недостаточно 
+                    скоростного SSD-накопителя.
+                    Данные на HDD и SSD хранятся постоянно, даже если ПК выключен, а в оперативной памяти они постоянно перезаписываются и обновляются. Память энергозависима, поэтому после выключения ПК она автоматически очищается.</p>
+                <img src="images/ram-memory111.png" alt="">
+            </div>
+        </div>
+
+        <div class="about_cont">
+            <div class="about_component">
+                <img src="images/power-supply (1111).png" alt="">
+                <p data-wow-duration="2s" class="wow animate__bounceInRight">Блок питания - это устройство в задачи которого входит преобразовать сетевое переменное напряжение в постоянное и подать его компонентам компьютера (системной карте, процессору, видеокарте, жесткому диску, оперативной памяти и другим периферийным устройствам).
+
+                    Также блок питания (БП) имеет свойство защитить компьютер от перепадов напряжения.
+                    
+                    По сути, это инверторная система (относиться к устройствам импульсного типа), которая инвертирует, изменяет сетевое напряжение для разных задач.
+                    
+                    Выглядит БП, как небольшая коробочка с вентилятором, вставляемая в системный блок.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_container">
+            <div class="about_us sec">
+                    <h2>About Us</h2>
+                    <p>Этот сайт создан для помощи в выборе комплектующих.
+                        Если у Вас есть пожелания или жалобы на работоспособность, вы можете обратиться к разработчику по ссылкам ниже.
+                        Спасибо что воспользовались данным ресурсом!
+                    </p>
+                    <ul class="sci">
+                        <li><a href="#"><img src="images/vk.svg" alt=""></a></li>
+                        <li><a href="#"><img src="images/instagram.svg" alt=""></a></li>
+                        <li><a href="#"><img src="images/github.svg" alt=""></a></li>
+                        <li><a href="#"><img src="images/youtube.svg" alt=""></a></li>
+                    </ul>
+            </div>
+
+            <div class="quick_links sec">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Приватность</a></li>
+                    <li><a href="#">О разработчике</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Помощь</a></li>
+
+                </ul>
+            </div>
+
+            <div class="call_us sec">
+                <h2>Свяжитесь с нами</h2>
+                <ul>
+                    <li><p class="sv_us"><a href="tel:+8 925 345 56 89">+8 925 345 56 89</a><br>
+                        <a href="tel:+8 963 563 12 21">+8 963 563 12 21</a></p></li>
+                    <li><a href="mailto:egorius@mail.ru">egorius@mail.ru</a></li>
+                    <li><p>Россия, Москва, Пр. Вернадского д.86 к1</p></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright_text">
+        <p>Copyright © 2022 RTY MIREA. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
