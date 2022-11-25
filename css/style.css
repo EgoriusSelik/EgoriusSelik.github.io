@@ -884,14 +884,15 @@ footer .footer_container{
 }
 .offpc{
   display: flex;
+  align-items: center;
   align-content: center;
   justify-content: center;
   grid-column: span 3;
   text-align: center;
   margin: 1%;
   font-size: 2em;
-  padding-bottom: 10px;
-  padding-top: 35px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   border-radius: 20px;
   color: #f4f4f4;
   background: linear-gradient(-80deg, #3dc3db, rgb(62, 84, 211), #23a6d5);
@@ -922,7 +923,6 @@ footer .footer_container{
   }
   .offpc{
     height: 60px;
-    padding-top: 0;
     grid-column: span 1;
   }
   .office_container{
