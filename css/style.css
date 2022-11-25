@@ -633,7 +633,7 @@ footer .footer_container{
   background-color: rgb(62, 84, 211);
   opacity: 0.5;
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   grid-column: span 2;
   z-index: 400;
   transition: all 0.5s;
