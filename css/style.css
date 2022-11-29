@@ -799,7 +799,7 @@ footer .footer_container{
 
 .container .card .text {
   position: absolute;
-  bottom: 40px;
+  bottom: -30px;
   padding: 20px;
   text-align: center;
 }
